@@ -52,3 +52,37 @@
 .contribution-status strong{font:600 18px/1.35 var(--display)}
 .contribution-status-note{font:8px var(--mono);letter-spacing:.04em;color:#89948e}
 @media(max-width:680px){.contribution-section{grid-template-columns:1fr;padding:23px 20px;gap:22px}.contribution-status{padding:19px}}
+
+/* Refreshed palette: warm ivory, deep evergreen and terracotta */
+:root{--paper:#fbf7f0;--white:#fffdf9;--ink:#24332e;--muted:#68766e;--line:#e6ded2;--green:#347565;--pale:#e8f0e9}
+.site-header{background:rgba(251,247,240,.93);border-bottom-color:rgba(36,51,46,.12)}
+.hero-art{background:#e9eee4}
+.art-center{background:#dce9dc;border-color:#bdd1c0}
+.intro-strip,.involvement-section{background:#e9eee4;border-color:#d7e2d5}
+.work-section{background:#f0ebe2}
+.project-visual,.chapter-visual{background:#e2eadd}
+.contact-section{background:#243b35}
+.footer{background:#1b302a}
+.eyebrow,.research-kicker,.tool-index{color:#347565}
+.brand-mark span,.text-link span,.nav-contact span,.formula,.art-center span{color:#bd684b}
+.button-dark{background:#263d36}
+.button-dark:hover,.project-link:hover{background:#bd684b}
+.nav-contact{border-color:#d9c9b9}
+.status-dot{background:#bd7658;box-shadow:0 0 0 4px #f1e4d9}
+.hero-art .orbit{border-color:rgba(52,117,101,.28)}
+.hero-art .axis{background:rgba(52,117,101,.24)}
+.contact-main h2 em{color:#d7a18a}
+.contact-email span,.contact-links a span{color:#e0a58b}
+
+/* Tools and technologies */
+.tools-section{background:#fbf7f0}
+.tools-heading{display:flex;justify-content:space-between;align-items:end;gap:35px;padding:48px 0 30px}
+.tools-heading>p{max-width:380px;font-size:12px;line-height:1.8;color:#718078;margin:0 0 4px}
+.tools-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.tool-group{padding:23px 20px 25px;border:1px solid #e5ddd1;background:#fffdf9;min-height:178px}
+.tool-index{font:8px var(--mono);letter-spacing:.08em}
+.tool-group h3{font:600 16px var(--display);margin:22px 0 15px}
+.tool-chips{display:flex;flex-wrap:wrap;gap:7px}
+.tool-chips span{font-size:10px;color:#52665c;background:#edf2eb;border:1px solid #dce7dc;padding:7px 9px}
+@media(max-width:900px){.tools-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.tools-heading{display:block;padding:38px 0 25px}.tools-heading>p{margin-top:15px}.tools-grid{grid-template-columns:1fr}.tool-group{min-height:0}.tool-group h3{margin:15px 0 12px}}
