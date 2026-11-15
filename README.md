@@ -13,7 +13,8 @@ A custom-designed, responsive portfolio for a Mathematics undergraduate interest
 - Semantic HTML, accessible navigation, keyboard Escape handling, and reduced-motion support.
 - Lightweight vanilla HTML, CSS, and JavaScript. No build step, API key, or paid service required.
 - SEO description, Open Graph metadata, theme color, and SVG favicon.
-- Featured ContractGuardian project with its live application link, technical overview, and informational-use disclaimer.
+- Featured ContractGuardian project with its live application link, technical overview, and informational use disclaimer.
+- Collaborative ZGDC CASPAM Chapter website project, with the user's verified contribution to the React registration form component and app routing.
 - Contact links for email, GitHub, and LinkedIn.
 
 ## Project structure
@@ -76,7 +77,8 @@ Do not run `git init` again inside an existing clone.
 ## Updating the portfolio
 
 - Edit biography, education, roles, contact details, and project descriptions in `index.html`.
-- Add future work by extending the project-card pattern.
+- Add future work by extending the project card pattern.
+- Keep collaborative projects clearly labelled and describe only your own verified contributions.
 - Add a CV link only when a final public CV file is available.
 - Never commit API keys, passwords, or other secrets to this static site repository.
 
