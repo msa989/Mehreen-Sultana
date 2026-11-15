@@ -19,3 +19,23 @@
 .project-actions{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .project-source{font-size:10px;color:var(--green);text-decoration:underline;text-underline-offset:4px}
 @media(max-width:680px){.chapter-visual{min-height:370px;padding:20px}.chapter-window-content{padding:27px 20px 20px}.chapter-window-links{gap:10px}.project-actions{align-items:flex-start;flex-direction:column;gap:14px}}
+
+
+/* Independent academic research */
+.research-section{margin-top:72px;padding-top:38px;border-top:1px solid #d7e0d7}
+.research-heading{display:flex;justify-content:space-between;align-items:end;gap:35px;margin-bottom:28px}
+.research-kicker{font:9px var(--mono);letter-spacing:.1em;color:var(--green);margin:0 0 13px}
+.research-heading h3{font:700 clamp(30px,4vw,43px)/1.12 var(--display);letter-spacing:-.055em;margin:0}
+.research-heading h3 em{font:italic 400 1em var(--serif);color:var(--green)}
+.research-heading>p{max-width:330px;font-size:12px;line-height:1.8;color:#77837c;margin:0 0 3px}
+.research-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.research-card{background:var(--paper);border:1px solid #e0e6df;padding:25px 23px;display:flex;flex-direction:column;min-height:340px}
+.research-meta{display:flex;justify-content:space-between;gap:10px;font:8px var(--mono);letter-spacing:.07em;color:#89948e}
+.research-card h4{font:700 22px/1.2 var(--display);letter-spacing:-.04em;margin:30px 0 5px}
+.research-subtitle{font:italic 15px var(--serif);color:var(--green);margin:0 0 15px}
+.research-card>p:not(.research-subtitle):not(.research-note){font-size:11px;line-height:1.8;color:#6e7b73;margin:0}
+.research-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:20px}
+.research-tags span{font:7px var(--mono);letter-spacing:.05em;color:#718078;border:1px solid #d8e0d7;padding:6px 7px}
+.research-note{font:8px var(--mono);letter-spacing:.04em;color:#89948e;margin:auto 0 0;padding-top:20px}
+@media(max-width:900px){.research-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.research-section{margin-top:55px;padding-top:30px}.research-heading{display:block}.research-heading>p{margin-top:15px}.research-grid{grid-template-columns:1fr}.research-card{min-height:0}.research-note{margin-top:22px}}
